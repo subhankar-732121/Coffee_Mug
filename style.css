@@ -1,0 +1,73 @@
+#wrapper{
+    height: 100vh;
+    /* width: 100vw; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 245, 233);
+}
+.container{
+    display: flex;
+    height: 60%;
+    width: 80%;
+    /* border: 2px solid rgb(30, 194, 16); */
+    justify-content: center;
+    object-fit: cover;
+}
+#cof{
+    font-family: 'Cormorant SC', serif;
+    letter-spacing: 4px;
+}
+.cup img{
+    height: 100%; 
+    width: 100%;
+    /* border: 2px solid rgb(168, 37, 126); */
+    border-top-left-radius: 10px ;
+    border-bottom-left-radius: 10px ;
+    }
+    .cup{
+        /* border: 2px solid rgb(83, 37, 168); */
+        height: 100%;
+        /* width: 30%; */
+        border-top-left-radius: 20px ;
+       
+    }
+    #coff{
+        font-family: "Montserrat", sans-serif; 
+          font-weight: 500;
+        letter-spacing: 3px;
+        font-weight: bold;
+    }
+    h1{
+        
+        font-family: "Fraunces", serif;   
+         font-weight: 700;
+    }
+    .cont{
+        height: 96%;
+        width:23%;
+        font-weight: 700;
+        /* border: 2px solid rgb(44, 240, 80); */
+        padding: 2% 4% 0 4%;
+        background-color: rgb(255, 255, 255);
+        border-top-right-radius: 10px ;
+        border-bottom-right-radius: 10px ;
+    }
+    #Actualprice{
+        font-size: 20px;
+        font-weight: bold;
+        color: rgb(39, 107, 39);
+    }
+    button{
+        color: antiquewhite;
+        background-color: rgb(73, 193, 193);
+        width: 100%;
+        height: 10%;
+        border-radius: 10px;
+        border: 1px solid rgb(63, 212, 212);
+        font-size: larger;
+        font-weight: 300;
+    }
+    .type{
+        color: grey;
+    }
